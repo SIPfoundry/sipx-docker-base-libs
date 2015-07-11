@@ -1,0 +1,15 @@
+box: centos:centos6
+no-response-timeout: 10
+command-timeout: 120
+build:
+  steps:
+    - script: 
+      name: Install curl
+      code: sudo yum install -y curl
+deploy:
+  steps:
+    - script: 
+      name: Trigger DockerHub build
+      code: |
+        curl -H "Content-Type: application/json" --data '{"build": true}' -X POST https://registry.hub.docker.com/u/sipfoundrydev/sipx-docker-base-libs/trigger/${DOCKERHUB_TRIGGER_TOKEN}/
+
