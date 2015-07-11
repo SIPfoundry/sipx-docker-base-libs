@@ -8,7 +8,7 @@ MAINTAINER SIPFoundry Dev <sipfoundrydev@gmail.com>
 #
 # Add the repository for sipx-baselibs
 #
-ADD sipx-baselibs.repo /etc/yum.repos.d
+ADD sipx-baselibs.repo /etc/yum.repos.d/
 
 #
 # Update the yum database
