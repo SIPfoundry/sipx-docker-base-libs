@@ -59,7 +59,10 @@ RUN yum install -y \
 	portaudio-devel \
 	libX11-devel \
 	erlang \
-	unixODBC-devel
+	unixODBC-devel \
+	lzo-devel \
+	openssl098e \
+	which
 
 
 
