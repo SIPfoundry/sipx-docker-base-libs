@@ -35,6 +35,9 @@ RUN yum -y install \
 	net-snmp-sysvinit \
 	net-snmp-utils \
 	ruby-dbi \
+	rubygem-file-tail \
+	rubygem-net-sftp \
+	rubygem-net-ssh \
 	ruby-postgres
 
 
