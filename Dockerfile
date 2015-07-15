@@ -58,7 +58,8 @@ RUN yum install -y \
 	libtheora-devel \
 	portaudio-devel \
 	libX11-devel \
-	erlang
+	erlang \
+	unixODBC-devel
 
 
 
