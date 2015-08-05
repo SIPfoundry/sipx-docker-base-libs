@@ -39,6 +39,30 @@ RUN yum -y install \
 	rubygem-net-sftp \
 	rubygem-net-ssh \
 	ruby-postgres
+	
+#
+# Install packages needed by FreeSWITCH
+#
+RUN yum install -y \
+	gnutls-devel \
+	speex-devel \
+	sqlite-devel \
+	ldns-devel \
+	libedit-devel \
+	libmemcached-devel \
+	libogg-devel \
+	libvorbis-devel \
+	libjpeg-devel \
+	alsa-lib-devel \
+	e2fsprogs-devel \
+	libtheora-devel \
+	portaudio-devel \
+	libX11-devel \
+	erlang \
+	unixODBC-devel \
+	lzo-devel \
+	openssl098e \
+	which
 
 #
 # Install Kamailio dependencies

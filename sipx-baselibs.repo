@@ -1,4 +1,4 @@
 [sipx-baselibs]
 name=sipXecs custom packages for CentOS $releasever - $basearch
-baseurl=http://173.214.164.148:8088/sipxecs/15.06-stage/externals/CentOS_$releasever/$basearch
+baseurl=http://stage.sipfoundry.org/sipxecs/15.06-stage/externals/CentOS_$releasever/$basearch
 gpgcheck=0
