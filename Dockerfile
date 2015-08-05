@@ -71,7 +71,7 @@ RUN yum -y install \
 	redhat-rpm-config \
 	libev-devel \
 	lksctp-tools-devel \
-	libmongoc-devel
+	mongo-c-driver-devel
 
 #
 # Do the final yum cleanup
