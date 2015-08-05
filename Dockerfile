@@ -70,7 +70,8 @@ RUN yum install -y \
 RUN yum -y install \
 	redhat-rpm-config \
 	libev-devel \
-	lksctp-tools-devel
+	lksctp-tools-devel \
+	libmongoc-devel
 
 #
 # Do the final yum cleanup
