@@ -40,7 +40,13 @@ RUN yum -y install \
 	rubygem-net-ssh \
 	ruby-postgres
 
-
+#
+# Install Kamailio dependencies
+#
+RUN yum -y install \
+	redhat-rpm-config \
+	libev-devel \
+	lksctp-tools-devel
 
 #
 # Do the final yum cleanup
