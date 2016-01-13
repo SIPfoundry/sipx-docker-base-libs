@@ -68,10 +68,17 @@ RUN yum install -y \
 # Install Kamailio dependencies
 #
 RUN yum -y install \
+	kamailio \
+	kamailio-mongodb \
+	kamailio-mysql \
+	kamailio-presence \
+	kamailio-sipx \
+	redis \
 	redhat-rpm-config \
 	libev-devel \
 	lksctp-tools-devel \
-	mongo-c-driver-devel
+	mongo-c-driver-devel \
+	mysql-server
 
 #
 # Do the final yum cleanup
